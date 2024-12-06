@@ -19,10 +19,10 @@ app.use(cors())
 app.use(express.json()); // use this in fetch API for CRUD
 //connection to mysql
 const connection = mysql.createConnection({
-    host: "bhqhlqbepxnwphtqkrjx-mysql.services.clever-cloud.com",
-    user: "ue5fvfm2oiar9sgh",
-    password: "wZ48zdsU83qbyIR01Ml2",
-    database: "bhqhlqbepxnwphtqkrjx",
+  host: "srv545.hstgr.io",
+  user: "u579076463_employeeAPI",
+  password: "u579076463_employeeAPI",
+  database: "u579076463_employeeAPI",
 });
 
 //initilization of connection
