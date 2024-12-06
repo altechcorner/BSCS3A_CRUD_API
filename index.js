@@ -25,6 +25,15 @@ const connection = mysql.createConnection({
   database: "u579076463_employeeAPI",
 });
 
+
+//===hosted in cloudpanel===//
+// const connection = mysql.createConnection({
+//   host: "localhost",
+//   user: "employee",
+//   password: "IsfAvO7EP6HG2meNYvmD",
+//   database: "employee",
+// });
+//=====//
 //initilization of connection
 connection.connect();
 
